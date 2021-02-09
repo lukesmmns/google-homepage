@@ -21,8 +21,30 @@
         top: 300px;
         left: 515px;
     }
+    ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  align-items: center;
+}
+    li{
+        display: inline;
+    }
+    #navbar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 </style>
 <main>
+    <header>
+        <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+        </ul>
+    </header>
     <h1><title>New tab</title></h1>
 <body> 
     <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
@@ -30,4 +52,10 @@
     <button class="button1" type="submit">Search</button>
     <button class="button2" type="submit">I'm feeling lucky!</button>
 </body>
+<footer><ul id="navbar">
+    <li><a href="default.asp">Careers</a></li>
+    <li><a href="news.asp">Contact Us</a></li>
+    <li><a href="contact.asp">Donate</a></li>
+    <li><a href="about.asp">FAQs</a></li>
+  </ul></footer>
 </main>
